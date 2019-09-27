@@ -1,0 +1,22 @@
+<div class="calculator grid-container">
+  <div class="grid-item result">{{result}}</div>
+  <div class="grid-item light-gray" (click)="reset()">AC</div>
+  <div class="grid-item light-gray">+/-</div>
+  <div class="grid-item light-gray">%</div>
+  <div class="grid-item yellow" (click)="setOperator('/')">/</div>
+  <div class="grid-item" (click)="inputNumber('7')">7</div>
+  <div class="grid-item" (click)="inputNumber('8')">8</div>
+  <div class="grid-item" (click)="inputNumber('9')">9</div>
+  <div class="grid-item yellow" (click)="setOperator('*')">*</div>
+  <div class="grid-item" (click)="inputNumber('4')">4</div>
+  <div class="grid-item" (click)="inputNumber('5')">5</div>
+  <div class="grid-item" (click)="inputNumber('6')">6</div>
+  <div class="grid-item yellow" (click)="setOperator('-')">-</div>
+  <div class="grid-item" (click)="inputNumber('1')">1</div>
+  <div class="grid-item" (click)="inputNumber('2')">2</div>
+  <div class="grid-item" (click)="inputNumber('3')">3</div>
+  <div class="grid-item yellow" (click)="setOperator('+')">+</div>
+  <div class="grid-item num0" (click)="inputNumber('0')">0</div>
+  <div class="grid-item" (click)="inputNumber('.')">,</div>
+  <div class="grid-item yellow" (click)="calculator()">=</div>
+</div>
